@@ -1,0 +1,124 @@
+.unknown {
+  color: white !important;
+}
+.magic {
+  color: #2854D9 !important;
+}
+.rare {
+  color: #FCB910 !important;
+}
+.legendary {
+  color: #914C22 !important;
+}
+.set {
+  color: #33C526 !important;
+}
+#itemPage {
+  width: @layoutWidth;
+  margin: 0 auto;
+  padding: 20px;
+  #tooltipImage {
+    text-align: center;
+    img {
+      box-shadow: 0 0 5px black;
+      max-width: 400px;
+    }
+    .sharing {
+      .addthis_toolbox {
+        background-color: rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 10px #000;
+        top: 44px;
+        left: 10px;
+      }
+    }
+  }
+  .itemHolder {
+    width: 430px;
+    float: right;
+    .item {
+      width: 380px;
+      margin: 0 auto;
+      margin-top: 10px;
+      border: 1px solid black;
+      background-color: rgba(0, 0, 50, 0.25);
+      box-shadow: 0 0 5px #222;
+      padding-bottom: 8px;
+      h4 {
+        border: 1px solid black;
+        box-shadow: 0 0 5px #222;
+        width: 300px;
+        margin: 0 auto;
+        padding: 8px;
+        margin-top: -10px;
+        color: black;
+        text-shadow: 0 0 1px black;
+        text-align: center;
+        background-color: #FCB910;
+      }
+      .clear {
+        clear: both;
+      }
+      .info {
+        margin-top: 8px;
+        margin-left: 32px;
+      }
+      .dps {
+        padding-left: 80px;
+        .name {
+          float: left;
+          margin-top: 18px;
+          padding: 6px;
+          color: #DA3B40;
+        }
+        .value {
+          float: left;
+          font-family: "Palatino Linotype", "Times", serif;
+          font-size: 60px;
+          text-shadow: 0 0 5px black;
+        }
+      }
+      .stat {
+        width: 360px;
+        margin: 0 auto;
+        padding: 4px;
+        > div {
+          float: left;
+          height: 26px;
+          line-height: 26px;
+        }
+        .name {
+          width: 20%;
+          text-align: right;
+        }
+        .progress {
+          width: 150px;
+          margin: 0 6px;
+          margin-top: 7px;
+          height: 10px;
+          border: 1px solid black;
+          background-color: #4E4B56;
+          > div {
+            background-color: #04ACAF;
+            height: 10px;
+          }
+        }
+        .value {
+          width: 30%;
+        }
+      }
+      .divider {
+        margin: 8px 0;
+      }
+    }
+    > .info {
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  #comments {
+    padding: 20px;
+    margin-top: 24px;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 10px black;
+  }
+}

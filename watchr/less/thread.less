@@ -1,0 +1,106 @@
+#threadPage {
+	width: @layoutWidth - 20px;
+	margin: 0 auto;
+	.bread {
+		margin-top: 14px;
+	}
+	#newThreadButton {
+		float: right;
+		display: inline-block;
+		width: 200px;
+		text-align: right;
+		margin: 0;
+	}
+	#thread {
+		margin-top: 14px;
+		box-shadow: 0 0 10px #000;
+		background-color: rgba(0, 0, 0, 0.25);
+		padding: 8px 10px;
+		font-size: 120%;
+		.leftControls {
+			width: 34px;
+			float: left;
+			.voteHolder {
+				.voteArrow.up, .voteArrow.down {
+					border-left: 14px solid transparent;
+					border-right: 14px solid transparent;
+				}
+				.voteArrow.up {
+					border-bottom: 14px solid white;
+					top: 6px;
+					left: 3px;
+				}
+				.voteArrow.down {
+					border-top: 14px solid white;
+					top: 42px;
+					left: 3px;
+				}
+		    .up.active {
+		      border-bottom: 14px solid #D15151;
+		      .opacity(1);
+		    }
+		    .down.active {
+		      border-top: 14px solid #90A9F3;
+		      .opacity(1);
+		    }
+				.voteValue {
+					line-height: 62px;
+					font-size: 14px;
+				}
+			}
+			.sharing {
+				.addthis_toolbox {
+    			position: relative;
+    			background-color: rgba(0, 0, 0, 0.25);
+    			margin-left: -66px;
+    			margin-top: -70px;
+    			box-shadow: 0 0 10px #000;
+				}
+			}
+		}
+		.content {
+			margin-left: 46px;
+			h1 {
+				font-family: Georgia,Arial,Helvetica,sans-serif;
+			}
+			.meta {
+				font-size: 10px;
+				color: #bbb;
+				margin-bottom: 4px;
+			}
+			.body {
+				width: 700px;
+				padding-top: 8px;
+				min-height: 100px;
+				ul, ol {
+					margin: 8px 0;
+				}
+			}
+		}
+	}
+	#leaveComment {
+		margin-top: 18px;
+		margin-top: 10px 14px;
+		box-shadow: 0 0 10px #000;
+		background-color: rgba(0, 0, 0, 0.25);
+		padding: 14px;
+		.comment {
+			border-left: 4px solid #D15151;
+			background-color: rgba(0, 0, 0, 0.25);
+			padding: 8px;
+			margin-top: 6px;
+			textarea {
+				width: 480px;
+				max-width: 94%;
+				min-height: 100px;
+				margin-bottom: 6px;
+			}
+		}
+	}
+	#comments {
+    padding: 20px;
+    margin-top: 24px;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 10px black;
+  }
+}

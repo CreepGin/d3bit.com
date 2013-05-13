@@ -1,0 +1,12 @@
+[
+  {
+    "name": "news",
+    "title": "News",
+    "description": "Admin posts here."
+  },
+  {
+    "name": "support",
+    "title": "Feedbacks",
+    "description": "Found a bug? Or just have some feedbacks? Post it here."
+  }
+]

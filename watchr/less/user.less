@@ -1,0 +1,93 @@
+#userPage {
+  .secret {
+    width:400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 50, 0.25);
+    box-shadow: 0 0 5px #222;
+    text-align: center;
+    strong {
+      color: #BF292E;
+      margin-right: 6px;
+    }
+    input {
+      font-family: 'Orbitron',Arial,Helvetica,sans-serif;
+      text-align: center;
+      width: 180px;
+      border: 1px dashed gray;
+    }
+  }
+  .userInfo {
+    width:400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 10px black;
+    padding: 8px;
+    text-align: center;
+    h3 {
+      margin-bottom: 6px;
+    }
+    .msg {
+      color: #D15151;
+    }
+    td {
+      padding: 6px;
+      line-height: 30px;
+      input {
+        text-align: center;
+        width: 180px;
+        border: 1px dashed gray;
+        padding: 4px;
+      }
+      &:first-child {
+        width: 120px;
+        text-align: right;
+      }
+    }
+  }
+  .note {
+    text-align: center;
+  }
+  .divider {
+    border: 0;
+    margin: 20px;
+  }
+  .albums {
+    td {
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+  .items {
+    width:720px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.35);
+    tr {
+      margin: 4px;
+      border-bottom: 1px dashed gray;
+      td {
+        padding: 6px;
+      }
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.45);
+        cursor: pointer;
+      }
+      &:first-child {
+        font-weight: bold;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.45);
+        border-bottom: 1px solid black;
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "Weapon": [
+    "Axe",
+    "Ceremonial Knife",
+    "Hand Crossbow",
+    "Dagger",
+    "Fist Weapon",
+    "Mace",
+    "Mighty Weapon",
+    "Spear",
+    "Sword",
+    "Wand"
+  ],
+  "Two-handed": [
+    "Two-Handed Axe",
+    "Bow",
+    "Daibo",
+    "Crossbow",
+    "Two-Handed Mace",
+    "Two-Handed Mighty Weapon",
+    "Polearm",
+    "Staff",
+    "Two-Handed Sword"
+  ],
+  "Off-Hand": [
+    "Mojo",
+    "Source",
+    "Quiver"
+  ],
+  "Follower": [
+    "Enchantress Focus",
+    "Scoundrel Token",
+    "Templar Relic"
+  ],
+  "Other": [
+    "Shield",
+    "Ring",
+    "Amulet",
+    "Shoulders",
+    "Helm",
+    "Pants",
+    "Gloves",
+    "Chest Armor",
+    "Bracers",
+    "Boots",
+    "Belt",
+    "Cloak",
+    "Mighty Belt",
+    "Spirit Stone",
+    "Voodoo Mask",
+    "Wizard Hat"
+  ]
+}

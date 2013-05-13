@@ -1,0 +1,1 @@
+watch('watchr/less/.*\.less|watchr/js/.*\.js') { system("compile.bat") }

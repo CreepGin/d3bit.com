@@ -1,0 +1,26 @@
+{
+  "primary": 5.8,
+  "dps": 6,
+  "pick": 2.0,
+  "mvspd": 2.4,
+  "atkspd": 1.4,
+  "gf": 2,
+  "mf": 2,
+  "loh": 3.4,
+  "life%": 2,
+  "ar": 3.0,
+  "crit": 3.4,
+  "critd": 3.4,
+  "block": 3,
+  "soc": 1.2,
+  "armor": 2,
+  
+  "MaxArcP": 1.2,
+  "ArcPCrit": 1.2,
+  "HateRegen": 1.2,
+  "MaxMana": 1.2,
+  "ManaRegen": 1.2,
+  "MaxDisc": 1.2,
+  "MaxFury": 1.2,
+  "SpiritRegen": 1.2
+}

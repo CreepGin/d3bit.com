@@ -1,0 +1,80 @@
+#album-page {
+	width: @layoutWidth;
+  margin: 0 auto;
+  padding-top: 10px;
+  h1 {
+  	margin-bottom: 26px;
+  	border-left: 6px solid black;
+  	background-color: rgba(0, 0, 0, 0.25);
+  	padding: 6px 8px;
+  	cursor: default;
+  	&:hover {
+  		border-left: 6px solid white;
+  	}
+  }
+  .item {
+  	display: inline-block;
+  	position: relative;
+  	a > img {
+  		width: 304px;
+  		box-shadow: 0 0 6px black;
+  		margin: 0 3px;
+  		margin-bottom: 22px;
+  		margin-top: 16px;
+  	}
+  	> span {
+  		position: absolute;
+  		top: -10px;
+  		left: 3px;
+  		padding: 4px 6px;
+  		background-color: black;
+  		box-shadow: 0 0 6px black;
+  		border-top-left-radius: 6px;
+  		border-top-right-radius: 6px;
+  		strong {
+  			display: inline-block;
+  			padding-right: 4px;
+  		}
+  		.control {
+  			opacity: 0.5;
+  			cursor: pointer;
+  			margin-right: 2px;
+  			&:hover {
+  				opacity: 1;
+  			}
+  		}
+  		> div {
+  			display: inline-block;
+  			vertical-align: middle;
+  			padding-top: 4px;
+  		}
+  	}
+  	.msg {
+  		position: absolute;
+  		top: 34%;
+  		text-align: center;
+  		width: 280px;
+  		padding: 14px;
+  		span {
+  			display: inline-block;
+  			background-color: rgba(255,255,255,0.7);
+  			border-radius: 6px;
+  			padding: 6px 8px;
+  			color: black;
+  			font-size: 120%;
+  			cursor: default;
+  			&:hover {
+  				opacity: 0.1;
+  			}
+  		}
+  	}
+  }
+	#comments {
+		background-color: rgba(0, 0, 0, 0.25);
+	  padding: 10px;
+	  box-shadow: 0 0 10px #000;
+		margin-left: 12px;
+		width: 596px;
+		float: right;
+	}
+}
