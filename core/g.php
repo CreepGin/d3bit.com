@@ -3,6 +3,8 @@ class G
 {
     public static $pageTitle = "D3Bit";
     public static $version = "10000";
+    public static $CF_NAME = "";
+    public static $CF_KEY = "";
     public static $templateName = "default";
     public static $controllerName = "home";
     public static $caching = false;
