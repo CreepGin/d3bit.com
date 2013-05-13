@@ -32,7 +32,7 @@ if (Util::HasValues($_POST, array("n", "d", "q", "t", "a"), $p) && is_numeric($p
 		$status = "success";
 		
 		//CloudFiles
-		$auth = new CF_Authentication('creepgin','9dbea4b038c48b080d3f88b353ac877d');
+		$auth = new CF_Authentication(G::$CF_NAME, G::$CF_KEY);
 		$auth->authenticate();
 		$conn = new CF_Connection($auth);
 		$cont = $conn->get_container('D3BitTooltips');
