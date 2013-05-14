@@ -85,6 +85,23 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 				destin = parseInt($("#album").val())+"";
 				Upload(destin);
 			}
+    }else if (destin == "auctionr") {
+      $.post("http://auctionrs.com/d3/api/post/", {
+        auctionrName: $("#auctionrName").val(),
+        battletag: $("#auctionrName").val(),
+        build: $("#build").val(),
+        name: $("#name").val(),
+        quality: $("#quality").val(),
+        type: $("#type").val(),
+        dps: $("#dps").val(),
+        meta: $("#meta").val(),
+        stats: $("#stats").val()
+      }, function(response) {
+        $("#upload-overlay").fadeOut(function(){
+          if (response && response.msg)
+            smoke.signal(response.msg, 5000);
+        });
+      }, "jsonp");
 		}else{
 			Upload(destin);
 		}

@@ -26,6 +26,7 @@ if (count($secrets) == 2 && Util::IsPInt($secrets[0]) && Util::IsPInt($secrets[0
 						<div class="top-note">No OCR algorithm is 100% accurate, please double check the values before uploading.</div>
 						<input type="hidden" id="battletag" value="<?php echo $g->battletag ?>" />
 						<input type="hidden" id="build" value="<?php echo $g->build ?>" />
+						<input type="hidden" id="auctionrName" value="<?php echo $g->auctionrName ?>" />
 					  <label for="name">Name</label><input type="text" id="name" name="name" value="<?php echo $g->name ?>" /><br />
 					  <label for="quality">Quality</label>
 					  <select name="quality" id="quality">
@@ -84,6 +85,7 @@ if (count($secrets) == 2 && Util::IsPInt($secrets[0]) && Util::IsPInt($secrets[0
 					<?php endforeach ?>
 				</select>
 			</p>
+			<p><input type="radio" name="destin" id="auctionr-destin" value="auctionr" /> <label for="auctionr-destin">Auctionr</label></p>
 			<p><input type="radio" name="destin" id="imgur-destin" value="imgur" /> <label for="imgur-destin">Imgur</label></p>
 			<input type="hidden" name="secret" id="secret" value="<?php echo $g->secret ?>" />
 			<center><button class="upload">Upload</button><button class="cancel">Cancel</button></center>
