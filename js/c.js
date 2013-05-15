@@ -88,14 +88,13 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
     }else if (destin == "auctionr") {
       $.post("http://auctionrs.com/d3/api/post/", {
         auctionrName: $("#auctionrName").val(),
-        battletag: $("#auctionrName").val(),
         build: $("#build").val(),
-        name: $("#name").val(),
-        quality: $("#quality").val(),
-        type: $("#type").val(),
-        dps: $("#dps").val(),
-        meta: $("#meta").val(),
-        stats: $("#stats").val()
+        Name: $("#name").val(),
+        Quality: $("#quality").val(),
+        Type: $("#type").val(),
+        DPS: $("#dps").val(),
+        Meta: $("#meta").val(),
+        Stats: $("#stats").val()
       }, function(response) {
         $("#upload-overlay").fadeOut(function(){
           if (response && response.msg)
